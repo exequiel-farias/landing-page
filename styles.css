@@ -71,10 +71,39 @@ a, .hero-secondary-text {
   border-radius: 8px;
 }
 
+.random-information-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  padding-top: 32px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 80px;
+}
+
 .information-header-text {
   font-size: 36px;
   font-weight: 900;
   color: #1F2937;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.item {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.item img {
+  border-radius: 8px;
 }
 
 .item-text {
