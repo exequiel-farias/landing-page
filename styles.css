@@ -134,6 +134,20 @@ a, .hero-secondary-text {
   align-self: flex-end;
 }
 
+.call-to-action-content {
+  margin: 80px 120px;
+  padding: 24px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-to-action-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 .call-to-action-header {
   font-size: 24px;
   color: #F9FAF8;
@@ -148,6 +162,9 @@ a, .hero-secondary-text {
   font-size: 24px;
   color: #F9FAF8;
   background-color: #3882F6;
+  padding: 4px 24px;
+  border-radius: 8px;
+  border-color: #F9FAF8;
 }
 
 ul {
