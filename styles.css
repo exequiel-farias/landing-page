@@ -1,0 +1,88 @@
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.hero-container {
+  background-color: #1F2937;
+  
+}
+
+.header-logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+a, .hero-secondary-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.footer-container {
+  background-color: #1F2937;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-button button, .call-to-action-content {
+  background-color: #3882F6;
+}
+
+.hero-button button {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.information-header-text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+.item-text {
+  font-size: 18px;
+  color: #1F2937;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote-author {
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.call-to-action-header {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.call-to-action-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.call-to-action-button button {
+  font-size: 24px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+}
