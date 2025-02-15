@@ -113,6 +113,10 @@ a, .hero-secondary-text {
 
 .quote-container {
   background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 80px 120px;
 }
 
 .quote-text {
@@ -126,6 +130,8 @@ a, .hero-secondary-text {
   color: #1F2937;
   font-size: 24px;
   font-weight: 700;
+  padding-right: 32px;
+  align-self: flex-end;
 }
 
 .call-to-action-header {
